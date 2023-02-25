@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different TC</title>
+    <link rel="stylesheet" href="../image/bootstrap-5.1.1-dist/css/bootstrap.css">
+</head>
+<style>
+    *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+background: url('../image/quti.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+background-attachment: fixed;
+}
+.overlay{
+background: rgba(3,3,3, 0.6);
+width: 100%;
+height: 100vh;   
+}
+.btn{
+    width: 250px;
+    height: 60px;
+    background: none;
+    border-color: red;
+    margin-top: 20px;
+    margin-left: 120px;
+    border: 2px solid red;
+}
+.btn,a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.btn,a:hover{
+    color: gold;
+}
+h1{
+    
+    color: wheat;
+}
+.menu ul li a{
+    color: rgb(255, 255, 255);
+  
+}
+.menu ul li{
+margin: 35px;
+}
+.menu ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.menu ul li a:hover{
+color: gold;
+font-size: larger;
+}
+</style>
+<body>
+    <div class="menu col-md-12">
+        <div class="main">
+            <div class="overlay">
+                <div class="log" style="margin-left: 80px;">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                    <h1 class="shadow" style="margin-top: 250px; margin-left: 120px;"><a href="#" style="color: khaki; font-family:  Georgia, 'Times New Roman', Times, serif;">Web Site</a></h1>
+                    <button class="btn shadow" style=" height: 50px; font-family: Georgia, 'Times New Roman', Times, serif;"><h1 style="margin-top: -7px;"><a href="#" target=".blank">Batafsil</a></h1></button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
